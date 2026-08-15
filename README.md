@@ -23,3 +23,7 @@ git commit -m "Your meaningful commit message"
 ## Add the remote repo:
 
 git remote add origin https://github.com/
+
+## Push the commit:
+
+git push -u main
