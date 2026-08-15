@@ -15,3 +15,7 @@ git add .
 ## Check the staged files:
 
 git status
+
+## Commit the change with a meaningful message:
+
+git commit -m "Your meaningful commit message"
