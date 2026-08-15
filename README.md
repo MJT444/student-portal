@@ -11,3 +11,7 @@ add .gitignore
 ## Stage the change:
 
 git add .
+
+## Check the staged files:
+
+git status
