@@ -3,26 +3,32 @@
     <title>Login</title>
   </head>
   <body>
-    <h2>Login</h2>
-    <form action="dashboard.html" method="post">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required /><br /><br />
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        id="password"
-        name="password"
-        required
-      /><br /><br />
-      <input type="submit" value="Login" />
-    </form>
+    <div style="display: flex; flex-direction: column; align-items: center">
+      <h2>Login</h2>
+      <form
+        action="dashboard.html"
+        method="post"
+        style="display: flex; flex-direction: column; width: 300px"
+      >
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+        <input type="submit" value="Login" />
+      </form>
 
-    <section>
-      <h3>Forgot Password?</h3>
-      <p>
-        If you forgot your password, please contact the administration office to
-        reset it.
-      </p>
-    </section>
+      <section>
+        <h3>Forgot Password?</h3>
+        <p>
+          If you forgot your password, please contact the administration office
+          to reset it.
+        </p>
+      </section>
+    </div>
   </body>
 </html>
