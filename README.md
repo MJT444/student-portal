@@ -19,3 +19,7 @@ git status
 ## Commit the change with a meaningful message:
 
 git commit -m "Your meaningful commit message"
+
+## Add the remote repo:
+
+git remote add origin https://github.com/
