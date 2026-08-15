@@ -7,3 +7,7 @@ git init -b main
 ## Add .gitignore
 
 add .gitignore
+
+## Stage the change:
+
+git add .
