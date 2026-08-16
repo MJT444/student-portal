@@ -27,3 +27,11 @@ git remote add origin https://github.com/
 ## Push the commit:
 
 git push -u main
+
+## Clone the repo
+
+git clone github.com/repo-name
+
+## Opening the file
+
+You can open the dashboard.html in any browser. It contains link to other pages.
